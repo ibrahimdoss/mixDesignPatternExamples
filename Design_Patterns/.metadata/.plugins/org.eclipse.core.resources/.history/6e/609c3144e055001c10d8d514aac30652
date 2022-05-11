@@ -1,0 +1,6 @@
+package decoratorDesignPattern;
+
+public interface IComponent {
+	
+	double Operation();
+}

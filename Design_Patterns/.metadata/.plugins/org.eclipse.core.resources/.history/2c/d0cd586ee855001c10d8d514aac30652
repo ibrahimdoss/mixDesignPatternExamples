@@ -1,0 +1,5 @@
+package facadeDesignPattern;
+
+public class EncryptorFacade {
+
+}

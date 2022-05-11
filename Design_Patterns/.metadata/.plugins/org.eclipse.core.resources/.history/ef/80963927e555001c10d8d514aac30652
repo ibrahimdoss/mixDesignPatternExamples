@@ -1,0 +1,19 @@
+package decoratorDesignPattern;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		IComponent component = new Component();
+		
+		DecoratorA decoratorA = new DecoratorA(component);
+		
+		DecoratorB decoratorB = new DecoratorB(component);
+		
+		System.out.println(component.Operation());
+		System.out.println(decoratorA.Operation());
+		System.out.println(decoratorB.Operation());
+				
+	}
+
+}

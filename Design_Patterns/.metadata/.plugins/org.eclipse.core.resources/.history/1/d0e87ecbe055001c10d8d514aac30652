@@ -1,0 +1,5 @@
+package decoratorDesignPattern;
+
+public class DecoratorA {
+
+}

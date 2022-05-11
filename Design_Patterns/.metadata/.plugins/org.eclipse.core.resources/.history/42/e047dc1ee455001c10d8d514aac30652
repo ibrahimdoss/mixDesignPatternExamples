@@ -1,0 +1,21 @@
+package decoratorDesignPattern;
+
+public class DecoratorB implements IComponent{
+	
+	private IComponent component ;
+	
+	public DecoratorB(IComponent c) {
+		component = c;
+	}
+
+	@Override
+	public double Operation() {
+		
+		Component nesneOne = new Component();
+		
+		System.out.println("Premium indirim hesaplanıyor.");
+		double premiumSiparis = (nesneOne.Operation())-(nesneOne.Operation()*30);
+		return 0;
+	}
+
+}

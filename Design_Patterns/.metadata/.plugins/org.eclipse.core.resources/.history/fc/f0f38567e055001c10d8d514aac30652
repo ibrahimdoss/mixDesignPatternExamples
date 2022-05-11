@@ -1,0 +1,6 @@
+package decoratorDesignPattern;
+
+public class Component implements IComponent{
+	
+	
+}

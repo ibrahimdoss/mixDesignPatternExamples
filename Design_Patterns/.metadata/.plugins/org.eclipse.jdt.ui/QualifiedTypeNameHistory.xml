@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="singletonDesignPattern.staticBlockSingleton.StaticBlockSingleton"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="builderDesignPattern.Product"/>
+    <fullyQualifiedTypeName name="builderDesignPattern.Product.ProductBuilder"/>
+</qualifiedTypeNameHistroy>

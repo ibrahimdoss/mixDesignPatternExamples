@@ -1,0 +1,14 @@
+package decoratorDesignPattern;
+
+public class Component implements IComponent{
+	
+	public double paket = 353.35 ;
+
+	@Override
+	public double Operation() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+}

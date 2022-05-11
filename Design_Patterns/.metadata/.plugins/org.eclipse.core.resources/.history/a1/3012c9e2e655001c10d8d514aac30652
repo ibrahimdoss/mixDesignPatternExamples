@@ -1,0 +1,8 @@
+package facadeDesignPattern;
+
+public class SHAEncryptor {
+	
+	public void encrypt(String text, String key, boolean tip ) {
+		System.out.println("<SHA>" + text + "<SHA>");
+	}
+}

@@ -1,0 +1,23 @@
+package com.decorator.design;
+
+public class Iphone implements Phone{
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return "iphone" ;
+	}
+
+	@Override
+	public int cameraCount() {
+		// TODO Auto-generated method stub
+		return 2 ;
+	}
+
+	@Override
+	public double getPrice() {
+		// TODO Auto-generated method stub
+		return 990.90 ;
+	}
+
+}

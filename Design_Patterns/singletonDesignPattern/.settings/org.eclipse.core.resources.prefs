@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/billPughSingleton/BillPughSingleton.java=UTF-8
+encoding//src/builderDesignPattern/Product.java=UTF-8
+encoding//src/builderDesignPattern/ProductLombok.java=UTF-8
+encoding//src/builderDesignPattern/Run.java=UTF-8
+encoding//src/singletonDesignPattern/eagerInitialization/EagerInitializationSingleton.java=UTF-8
+encoding//src/singletonDesignPattern/lazySingleton/LazySingleton.java=UTF-8
+encoding//src/singletonDesignPattern/staticBlockSingleton/StaticBlockSingleton.java=UTF-8
+encoding//src/threadSafeSingleton/ThreadSafeSingleton.java=UTF-8

@@ -1,0 +1,12 @@
+package com.decorator.design;
+
+public class ExampleOne {
+
+	
+	public static class iphone {
+		
+		int getCamera() {
+			return 2;
+		}
+	}
+}

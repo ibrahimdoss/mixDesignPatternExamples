@@ -1,0 +1,15 @@
+package facadeDesignPattern;
+
+public class EncryptorFacade {
+	
+	public void encrypt(String text, EncType encType){
+		
+	}
+	
+	public enum EncType{
+		
+		SHA,
+		MD5,
+		AES
+	}
+}

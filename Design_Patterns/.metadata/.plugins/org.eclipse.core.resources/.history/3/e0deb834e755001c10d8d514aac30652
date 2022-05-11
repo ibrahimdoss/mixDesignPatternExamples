@@ -1,0 +1,17 @@
+package facadeDesignPattern;
+
+public class CustomerEncryptor {
+	
+	public static void main (String[] args) {
+		
+		String text = "Content" ; 
+		
+		AESEncryptor aesEncryptor = new AESEncryptor();
+		aesEncryptor.encrypt(text);
+		
+		MD5Encryptor md5Encryptor = new MD5Encryptor();
+		md5Encryptor.encrypt(text);
+		
+		SHAEncryptor shaEncryptor = new SHAEncryptor();
+	}
+}

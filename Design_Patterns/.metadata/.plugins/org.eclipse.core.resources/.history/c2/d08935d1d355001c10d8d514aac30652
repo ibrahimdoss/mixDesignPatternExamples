@@ -1,0 +1,9 @@
+package com.decorator.design;
+
+public class IPhone11Pro extends PhoneDecorator{
+
+	public IPhone11Pro(Iphone basicPhone) {
+		super(basicPhone);
+	}
+
+}

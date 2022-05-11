@@ -1,0 +1,17 @@
+package decoratorDesignPattern;
+
+public class DecoratorA implements IComponent{
+
+	private IComponent component ; 
+	
+	
+	
+	
+	
+	@Override
+	public double Operation() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,29 @@
+package com.decorator.design;
+
+public class ExampleOne {
+
+	
+	public static class iphone {
+		
+		public String  name () {
+			return "Iphone 11";
+		}
+
+		int getCamera() {
+			return "Iphone 11";
+		}
+	}
+
+	public static class iphoneXlm {
+
+		int getCamera() {
+			return "Iphone 11";
+		}
+	}
+
+	public static class iphonePro {
+
+		int getCamera() {
+			return "Iphone 11" ;
+}
+	}

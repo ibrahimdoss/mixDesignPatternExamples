@@ -1,0 +1,24 @@
+package decoratorDesignPattern;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		IComponent component = new Component();
+		
+		DecoratorA decoratorA = new DecoratorA(component);
+		
+		DecoratorB decoratorB = new DecoratorB(component);
+		
+		System.out.println(component.Operation());
+		System.out.println(decoratorA.Operation());
+		System.out.println(decoratorB.Operation());
+				
+	}
+
+}
+
+//Decorator design pattern önce base bir interface ya da abstract oluştururuz tüm sınıflar bunu implement etmek zorundadır.
+//sonra bu interface'i kullanacak bir class açarız buraya işlemleri yapacağımız yer olarak kullanırız.
+// ardından kullanacak işlemlerde implement edip mevcuttaki kodu bozmadan gelen değişikliği çok çabuk sisteme ekleyebiliriz.
+// Open-Closed Prensibine uygun olan bir patterndir.
